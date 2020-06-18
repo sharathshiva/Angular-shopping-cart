@@ -1,0 +1,8 @@
+<div class="card">  
+  <img src={{product.img_url}} class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title" style="text-align:center">{{product.name}}</h5>
+        <b class="card-text">{{ product.price }} <span style="color:green;padding-left:70px">{{ product.discount }}% off</span></b>
+    </div>
+    <button (click)="addProductToCart(product)">Add to Cart</button>
+<div>
