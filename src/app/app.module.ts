@@ -13,7 +13,11 @@ import {MatIconModule} from '@angular/material/icon';
 
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule,MatIconModule],
+  imports:[ 
+    BrowserModule,
+     FormsModule,
+     MatIconModule,
+     BrowserAnimationsModule],
   declarations: [ AppComponent,HeaderComponent,CartProductComponent,ProductComponent,ProductListComponent,ShoppingCartComponent],
   bootstrap:    [ AppComponent ]
 })
