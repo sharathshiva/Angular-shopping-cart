@@ -1,4 +1,4 @@
-import { Component, VERSION } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'my-app',
@@ -43,7 +43,7 @@ export class AppComponent  {
       img_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSIMCi0h3phSUMntggEOOskGzmFmJc1Gc5f3kEngrGAoJCY8o24&usqp=CAU"
     }
  ];
- 
+
 cartProductList = [];
  addProductToCart(product) {
    const productExistInCart = this.cartProductList.find(({name}) => name === product.name); // find product by name
